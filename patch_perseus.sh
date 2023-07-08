@@ -33,7 +33,7 @@ download_azurlane () {
 
 if [ ! -f "com.YoStarJP.AzurLane.apk" ]; then
     echo "Get Azur Lane apk"
-    wget https://github.com/Sora1111ii/JP-Perseu/releases/download/Az/com.YoStarJP.AzurLane.apk
+    wget https://pzaz.apkadmin.com/cgi-bin/dl.cgi/rsbbrs4q6mrhlpdaib5myzpg6dvv57bdmhmnzey7q4y7uh4et5ghgbi/com.YoStarJP.AzurLane.apk
     download_azurlane
     unzip -o com.YoStarJP.AzurLane.xapk -d AzurLane
     cp AzurLane/com.YoStarJP.AzurLane.apk .
